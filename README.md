@@ -19,6 +19,8 @@ RFM segmentation is a great method to identify groups of customers for special t
 
 ### K-Means Clustering
 
+Elbow method Medium [post](https://medium.com/analytics-vidhya/elbow-method-of-k-means-clustering-algorithm-a0c916adc540), written by [S Joel Franklin](https://medium.com/@joel_34096).
+
 
 ### Roundup
 
