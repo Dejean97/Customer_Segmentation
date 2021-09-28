@@ -93,7 +93,19 @@ More information on the Elbow method can be found in this Medium [post](https://
 
 Finally, the K-means clustering algorithm was used to generate cluster labels within the data frame. Customers were clustered into group 1, 2 or 3 as determined above. This means that two of the four customer tiers would be clustered together.
 
-Simply put, that was the process of clustering this set of customers by examining the below graph and the data, we can identify that Silver and Gold customers were clustered together whilst Platinum and Bronze customers each formed their own customers.
+Simply put, that was the process of clustering this set of customers by examining the below graph and the data, we can identify that Silver and Gold customers were clustered together whilst Platinum and Bronze customers each formed their own customers. This final dataset consisted of:
+- Customer ID
+- Recency value
+- Frequency value
+- Monetary value
+- Recency quartile
+- Frequency quartile
+- Monetary quartile
+- RFM group
+- RFM score
+- Customer tier
+- Cluster
+- Cluster Colour
 
 ![RxF w/ Clusters](https://github.com/Dejean97/Customer_Segmentation/blob/main/Recency%20x%20Frequency%20with%20Clusters.png)
 
