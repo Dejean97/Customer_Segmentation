@@ -34,12 +34,18 @@ RFM segmentation is a great method to identify groups of customers for special t
 Graphs were plotted, showing the RFM attributes by customer tier:
 
 - Recency by Frequency
+
+
 ![FreqxRec](https://github.com/Dejean97/Customer_Segmentation/blob/main/FreqxRec.png)
 
 - Frequency by Monetary
+
+
 ![MonxFreq](https://github.com/Dejean97/Customer_Segmentation/blob/main/MonxFreq.png)
 
 - Recency by Monetary
+
+
 ![MonxRec](https://github.com/Dejean97/Customer_Segmentation/blob/main/MonxRec.png)
 
 
