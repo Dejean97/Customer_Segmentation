@@ -83,13 +83,15 @@ Prior to carrying out the clustering, the RFM attributes underwent normalisation
 
 ![Monetary Norm](https://github.com/Dejean97/Customer_Segmentation/blob/main/Monetary%20Norm.png)
 
-Finally, prior to actually defining and making the clusters the attributes needed to be standardised and scaled, as Recency only went up into the hundreds where as Monetary values were up into the tens of thousands.
+The final stage of preparation, prior to actually defining and making the clusters, was standardising and scaling as Recency only went up into the hundreds where as Monetary values were up into the tens of thousands.
 
 From here the elbow method was used to identify the optimal value for k, in this instance 3 clusters was optimal as shown below.
 
 ![Elbow for k](https://github.com/Dejean97/Customer_Segmentation/blob/main/Elbow%20for%20Optimal%20k.png)
 
 More information on the Elbow method can be found in this Medium [post](https://medium.com/analytics-vidhya/elbow-method-of-k-means-clustering-algorithm-a0c916adc540), written by [S Joel Franklin](https://medium.com/@joel_34096).
+
+Finally, the K-means clustering algorithm was used to generate cluster labels within the data frame. Customers were clustered into group 1, 2 or 3 as determined above. This means that two of the four customer tiers would be clustered together. Simply put, that was the process of clustering this set of customers by examining the below graph and the data, we can identify that Silver and Gold customers were clustered together whilst Platinum and Bronze customers each formed their own customers.
 
 ![RxF w/ Clusters](https://github.com/Dejean97/Customer_Segmentation/blob/main/Recency%20x%20Frequency%20with%20Clusters.png)
 
