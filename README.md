@@ -75,13 +75,15 @@ The resulting dataset, to be used in the K-means clustering, consisted of the:
 
 K-means clustering is a simple but popular algorithm, for grouping similar data points together (into clusters) and discover underlying patterns. A cluster refers to a collection of data points aggregated together because of certain similarities. In this scenario the algorithm is 'grouping' customers together based on online retail purchasing similarities.
 
-Prior to carrying out the clustering, the RFM attributes underwent normalisation using log transform to ensure they met statistical assumptions. To ensure this worked correctly, a function was written to set any values, that were less than or equal to 0, to 1.
+Prior to carrying out the clustering, the RFM attributes underwent normalisation using log transform to ensure they met statistical assumptions. To ensure this worked correctly, a function was written to set any values, that were less than or equal to 0, to 1. As shown below, the log transformation worked to get each attribute much closer to a normal distribution.
 
 ![Recency Norm](https://github.com/Dejean97/Customer_Segmentation/blob/main/Recency%20Norm.png)
 
 ![Frequency Norm](https://github.com/Dejean97/Customer_Segmentation/blob/main/Frequency%20Norm.png)
 
 ![Monetary Norm](https://github.com/Dejean97/Customer_Segmentation/blob/main/Monetary%20Norm.png)
+
+Finally, prior to actually defining and making the clusters the attributes needed to be standardised and scaled, as Recency only went up into the hundreds where as Monetary values were up into the tens of thousands.
 
 From here the elbow method was used to identify the optimal value for k, in this instance 3 clusters was optimal as shown below.
 
