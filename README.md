@@ -31,7 +31,11 @@ RFM segmentation is a great method to identify groups of customers for special t
  - This resulted in a new dataframe consisting of Customer ID, Recency value, Frequency value and Monetary value.
  - Standard descriptive statistics and distribution plots were generated for each, all three were right skewed and this will be addressed later.
 
-![Recency Dist
+![Recency Dist](https://github.com/Dejean97/Customer_Segmentation/blob/main/Recency%20Dist.png)
+
+![Frequency Dist](https://github.com/Dejean97/Customer_Segmentation/blob/main/Frequency%20Dist.png)
+
+![Monetary Dist](https://github.com/Dejean97/Customer_Segmentation/blob/main/Monetary%20Dist.png)
 
  - Quantiles at 25%, 50% and 75% were created and these will be used to create a label for each customer with regards to which quartile (1, 2, 3 or 4) they reside within for each RFM attribute.
  - A function was then defined to assign these quartile labels based on the values, with 1-4 lower being better for recency and 4-1 with higher be better for monetary and frequency.
@@ -74,7 +78,11 @@ K-means clustering is a simple but popular algorithm, for grouping similar data 
 Prior to carrying out the clustering, the RFM attributes underwent normalisation using log transform to ensure they met statistical assumptions. To ensure this worked correctly, a function was written to set any values, that were less than or equal to 0, to 1.
 
 
-From here the elbow method was used to identify the optimal value for k, in this instance 3 clusters was optimal. More information on the Elbow method can be found in this Medium [post](https://medium.com/analytics-vidhya/elbow-method-of-k-means-clustering-algorithm-a0c916adc540), written by [S Joel Franklin](https://medium.com/@joel_34096).
+From here the elbow method was used to identify the optimal value for k, in this instance 3 clusters was optimal as shown below.
+
+![Elbow for k](https://github.com/Dejean97/Customer_Segmentation/blob/main/Elbow%20for%20Optimal%20k.png)
+
+More information on the Elbow method can be found in this Medium [post](https://medium.com/analytics-vidhya/elbow-method-of-k-means-clustering-algorithm-a0c916adc540), written by [S Joel Franklin](https://medium.com/@joel_34096).
 
 
 ### Roundup
