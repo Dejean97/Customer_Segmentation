@@ -1,6 +1,6 @@
 # Customer_Segmentation
 
-The aim of this project was to examine online sales data to determine the potential value of a set of customers, clustering them together which could be used to develop targeted marketing strategies to improve future sales.
+The aim of this project was to examine online sales data to determine the potential value of a set of customers, clustering them together which could be used to develop targeted marketing strategies to improve future sales. I'm particularly practicing this on a simple scenario as I plan to use it on an upcoming project involving a little more complexity.
 
 Inspiration for this project came from the [The AI University](https://www.youtube.com/channel/UCv6Uw36LRbYnX4HDxKPguKg) Youtube channel.
 
@@ -22,8 +22,20 @@ Having downloaded the raw sales data, this was then read into pandas for explora
 
 RFM segmentation is a great method to identify groups of customers for special treatment. A detailed description and step by step methodology can be found on this Optimove [post](https://www.optimove.com/resources/learning-center/rfm-segmentation).
 
+- The previously cleaned and reduced dataset was read in via pandas.
+- A 'maximum' date was created as a benchmark for calcuating transaction recency.
+- Values for Recency, Frequency and Monetary were then calculated for each customer:
+    - Recency = Days since last transaction
+    - Frequency = Total number of transactions
+    - Monetary = Sum total amount of all transactions
+  - This resulted in a new dataframe consisting of Customer ID, Recency value, Frequency value and Monetary value.
+  - 
 
 ### K-Means Clustering
+
+K-means clustering is a simple but popular algorithm, for grouping similar data points together (into clusters) and discover underlying patterns. A cluster refers to a collection of data points aggregated together because of certain similarities. In this scenario the algorithm is 'grouping' customers together based on online retail purchasing similarities.
+
+
 
 Elbow method Medium [post](https://medium.com/analytics-vidhya/elbow-method-of-k-means-clustering-algorithm-a0c916adc540), written by [S Joel Franklin](https://medium.com/@joel_34096).
 
