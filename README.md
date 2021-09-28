@@ -29,7 +29,10 @@ RFM segmentation is a great method to identify groups of customers for special t
     - Frequency = Total number of transactions
     - Monetary = Sum total amount of all transactions
  - This resulted in a new dataframe consisting of Customer ID, Recency value, Frequency value and Monetary value.
- - Standard descriptive statistics and distribution plots were generated for each, all three were right skewed.
+ - Standard descriptive statistics and distribution plots were generated for each, all three were right skewed and this will be addressed later.
+
+![Recency Dist
+
  - Quantiles at 25%, 50% and 75% were created and these will be used to create a label for each customer with regards to which quartile (1, 2, 3 or 4) they reside within for each RFM attribute.
  - A function was then defined to assign these quartile labels based on the values, with 1-4 lower being better for recency and 4-1 with higher be better for monetary and frequency.
  - These labels were then combined to make a group (e.g. 441) and summed to create a score ranging from 3-12.
