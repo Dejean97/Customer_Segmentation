@@ -31,6 +31,18 @@ RFM segmentation is a great method to identify groups of customers for special t
   - This resulted in a new dataframe consisting of Customer ID, Recency value, Frequency value and Monetary value.
   - 
 
+Graphs were plotted, showing the RFM attributes by customer tier:
+
+- Recency by Frequency
+![FreqxRec](https://github.com/Dejean97/Customer_Segmentation/blob/main/FreqxRec.png)
+
+- Frequency by Monetary
+![MonxFreq](https://github.com/Dejean97/Customer_Segmentation/blob/main/MonxFreq.png)
+
+- Recency by Monetary
+![MonxRec](https://github.com/Dejean97/Customer_Segmentation/blob/main/MonxRec.png)
+
+
 ### K-Means Clustering
 
 K-means clustering is a simple but popular algorithm, for grouping similar data points together (into clusters) and discover underlying patterns. A cluster refers to a collection of data points aggregated together because of certain similarities. In this scenario the algorithm is 'grouping' customers together based on online retail purchasing similarities.
