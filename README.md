@@ -32,7 +32,8 @@ RFM segmentation is a great method to identify groups of customers for special t
  - Standard descriptive statistics and distribution plots were generated for each, all three were right skewed.
  - Quantiles at 25%, 50% and 75% were created and these will be used to create a label for each customer with regards to which quartile (1, 2, 3 or 4) they reside within for each RFM attribute.
  - A function was then defined to assign these quartile labels based on the values, with 1-4 lower being better for recency and 4-1 with higher be better for monetary and frequency.
- - 
+ - These labels were then combined to make a group (e.g. 441) and summed to create a score ranging from 3-12.
+ - Customer tiers (bronze, silver, gold and platinum) were then created by generating for cuts of the final RFM score data (platinum having lowest scores and being most valuable customers, bronze having highest score and being least valuable customers).
 
 Scatter graphs were plotted, showing the RFM attributes by customer tier:
 
@@ -51,6 +52,17 @@ Scatter graphs were plotted, showing the RFM attributes by customer tier:
 
 ![MonxRec](https://github.com/Dejean97/Customer_Segmentation/blob/main/MonxRec.png)
 
+The resulting dataset, to be used in the K-means clustering, consisted of the:
+- Customer ID
+- Recency value
+- Frequency value
+- Monetary value
+- Recency quartile
+- Frequency quartile
+- Monetary quartile
+- RFM group
+- RFM score
+- Customer tier
 
 ### K-Means Clustering
 
