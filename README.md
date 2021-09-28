@@ -91,7 +91,9 @@ From here the elbow method was used to identify the optimal value for k, in this
 
 More information on the Elbow method can be found in this Medium [post](https://medium.com/analytics-vidhya/elbow-method-of-k-means-clustering-algorithm-a0c916adc540), written by [S Joel Franklin](https://medium.com/@joel_34096).
 
-Finally, the K-means clustering algorithm was used to generate cluster labels within the data frame. Customers were clustered into group 1, 2 or 3 as determined above. This means that two of the four customer tiers would be clustered together. Simply put, that was the process of clustering this set of customers by examining the below graph and the data, we can identify that Silver and Gold customers were clustered together whilst Platinum and Bronze customers each formed their own customers.
+Finally, the K-means clustering algorithm was used to generate cluster labels within the data frame. Customers were clustered into group 1, 2 or 3 as determined above. This means that two of the four customer tiers would be clustered together.
+
+Simply put, that was the process of clustering this set of customers by examining the below graph and the data, we can identify that Silver and Gold customers were clustered together whilst Platinum and Bronze customers each formed their own customers.
 
 ![RxF w/ Clusters](https://github.com/Dejean97/Customer_Segmentation/blob/main/Recency%20x%20Frequency%20with%20Clusters.png)
 
