@@ -89,6 +89,7 @@ From here the elbow method was used to identify the optimal value for k, in this
 
 More information on the Elbow method can be found in this Medium [post](https://medium.com/analytics-vidhya/elbow-method-of-k-means-clustering-algorithm-a0c916adc540), written by [S Joel Franklin](https://medium.com/@joel_34096).
 
+![RxF w/ Clusters](https://github.com/Dejean97/Customer_Segmentation/blob/main/Recency%20x%20Frequency%20with%20Clusters.png)
 
 ### Roundup
 
