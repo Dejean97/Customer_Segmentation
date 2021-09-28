@@ -77,6 +77,11 @@ K-means clustering is a simple but popular algorithm, for grouping similar data 
 
 Prior to carrying out the clustering, the RFM attributes underwent normalisation using log transform to ensure they met statistical assumptions. To ensure this worked correctly, a function was written to set any values, that were less than or equal to 0, to 1.
 
+![Recency Norm](https://github.com/Dejean97/Customer_Segmentation/blob/main/Recency%20Norm.png)
+
+![Frequency Norm](https://github.com/Dejean97/Customer_Segmentation/blob/main/Frequency%20Norm.png)
+
+![Monetary Norm](https://github.com/Dejean97/Customer_Segmentation/blob/main/Monetary%20Norm.png)
 
 From here the elbow method was used to identify the optimal value for k, in this instance 3 clusters was optimal as shown below.
 
