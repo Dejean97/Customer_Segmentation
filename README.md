@@ -31,19 +31,19 @@ RFM segmentation is a great method to identify groups of customers for special t
   - This resulted in a new dataframe consisting of Customer ID, Recency value, Frequency value and Monetary value.
   - 
 
-Graphs were plotted, showing the RFM attributes by customer tier:
+Scatter graphs were plotted, showing the RFM attributes by customer tier:
 
-- Recency by Frequency
+- Frequency by Recency
 
 
 ![FreqxRec](https://github.com/Dejean97/Customer_Segmentation/blob/main/FreqxRec.png)
 
-- Frequency by Monetary
+- Monetary by Frequency
 
 
 ![MonxFreq](https://github.com/Dejean97/Customer_Segmentation/blob/main/MonxFreq.png)
 
-- Recency by Monetary
+- Monetary by Recency
 
 
 ![MonxRec](https://github.com/Dejean97/Customer_Segmentation/blob/main/MonxRec.png)
