@@ -68,9 +68,10 @@ The resulting dataset, to be used in the K-means clustering, consisted of the:
 
 K-means clustering is a simple but popular algorithm, for grouping similar data points together (into clusters) and discover underlying patterns. A cluster refers to a collection of data points aggregated together because of certain similarities. In this scenario the algorithm is 'grouping' customers together based on online retail purchasing similarities.
 
+Prior to carrying out the clustering, the RFM attributes underwent normalisation using log transform to ensure they met statistical assumptions. To ensure this worked correctly, a function was written to set any values, that were less than or equal to 0, to 1.
 
 
-Elbow method Medium [post](https://medium.com/analytics-vidhya/elbow-method-of-k-means-clustering-algorithm-a0c916adc540), written by [S Joel Franklin](https://medium.com/@joel_34096).
+From here the elbow method was used to identify the optimal value for k, in this instance 3 clusters was optimal. More information on the Elbow method can be found in this Medium [post](https://medium.com/analytics-vidhya/elbow-method-of-k-means-clustering-algorithm-a0c916adc540), written by [S Joel Franklin](https://medium.com/@joel_34096).
 
 
 ### Roundup
