@@ -92,4 +92,4 @@ More information on the Elbow method can be found in this Medium [post](https://
 
 ### Roundup
 
-This project allowed me to learn new skills in python as well as new analytical methods (RFM modelling and K-Means clustering). I believe customer segmentation is a very valuable and applicable skill,  I expect to utilise this in my next project which will be an end-to-end analytics consulting task.
+This project allowed me to learn new skills in python as well as new analytical methods (RFM modelling and K-Means clustering). I believe customer segmentation is a very valuable and applicable skill, to take this to the next level if we had some more data on the customers specifically we could use these new clusters and map them to new customers to determine what cluster they may fall into and how to best market the products to them particularly. I expect to utilise some of the learnings from this project in my next project which will be an end-to-end analytics consulting task.
